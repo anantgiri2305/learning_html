@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html"> Contact Us</a> |
+            <a href="input_types.html">Input Types</a> |
+            <a href="basic.html">Basic</a> |
+            <a href="audio_video.html">Audio-Video</a> | 
+        </nav>
+    </header>
     <label>First Name :</label>
     <input type="text" placeholder="Enter your First Name"/><br><br>
     <label>Last Name :</label>
@@ -43,7 +53,24 @@
         <option>Maggie</option>
     </select> <br><br>
 
-    <textarea rows="6" cols="100" placeholder="Enter Your Text"></textarea>
+    <textarea rows="6" cols="100" placeholder="Enter Your Text"></textarea><br><br>
+
+    <fieldset>
+        <legend>Contact Form</legend>
+        <form>
+            <label>First Name :</label>
+            <input type="text" placeholder="Enter your First Name"/><br><br>
+            <label>Last Name :</label>
+            <input type="text" placeholder="Enter your Last Name"/><br><br>
+            <label>Email-id :</label>
+            <input type="email" placeholder="Enter your Email-id"/><br><br>
+            <label>Phone Number :</label>
+            <input type="number" placeholder="Enter your Phone no."/><br><br>
+            <label>Address :</label>
+            <textarea rows="6" cols="70" placeholder="Enter Your Address"></textarea><br><br>
+            <input type="button" value="Submit"/>
+        </form>
+    </fieldset>
 
 </body>
 </html>
